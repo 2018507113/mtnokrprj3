@@ -1,0 +1,126 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Major Mono Display", monospace;
+}
+
+body {
+  background-color: #13005a;
+}
+
+.main-logo {
+  list-style-type: none;
+}
+
+.main-header {
+  background-color: #13005a;
+  padding: 8px 16px;
+  width: 100%;
+}
+
+.main-header ul {
+  list-style-type: none;
+}
+
+.main-nav {
+  display: inline-block;
+  width: calc(100% - 109px);
+  text-align: right;
+}
+a {
+  text-decoration: none;
+}
+.main-item {
+  display: inline-block;
+  list-style-type: none;
+  margin: 12px;
+}
+
+a {
+  color: #03c988;
+  font-weight: bold;
+}
+
+.main-items i {
+  color: #03c988;
+}
+
+#showcase {
+  display: inline-block;
+  background-color: #00337c;
+  height: 450px;
+  color: #03c988;
+}
+
+#showcase h1 {
+  text-align: center;
+  margin-top: 35px;
+  padding: 12px;
+}
+
+#showcase p {
+  text-align: center;
+  font-weight: bold;
+  position: absolute;
+}
+
+#conteiner {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  flex-direction: column;
+}
+
+#conteiner h2 {
+  margin: 23px;
+  color: #03c988;
+}
+
+.row {
+  display: flex;
+  width: 55%;
+  border: 1px solid #03c988;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+#conteiner span {
+  color: #03c988;
+  font-weight: bold;
+}
+
+.buy {
+  display: flex;
+  text-align: right;
+  margin: 38px;
+  padding: 10px;
+  border-radius: 83px;
+  border: 6px solid #03c988;
+  flex-direction: row-reverse;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+}
+
+.row del {
+  color: red;
+}
+
+a:link {
+  color: red;
+}
+a:visited {
+  color: #03c988;
+}
+
+a:hover {
+  color: red;
+}
+
+.h5 {
+  display: inline-block;
+  height: 700px;
+}
